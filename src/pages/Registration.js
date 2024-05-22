@@ -16,7 +16,7 @@ const Registration = () => {
         <div className="background">
         <div className="w-100 d-flex justify-content-between align-items-center py-3 bg-white">
         <div className="px-4">
-        <img src={img} style={{ height: "60px" }} alt="logo image" />
+        <img src={img} style={{ height: "60px" }} alt="logo" />
         </div>
         <div className="ms-2 fw-bold text-wrap">
         National Cooperative Consumer's Federation of India Ltd - Bharat
