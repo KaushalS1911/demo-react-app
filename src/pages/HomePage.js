@@ -103,7 +103,7 @@ const HomePage =
                                                 <div className="ps-md-5 p-0">
                                                     <div>
                                                         <h5>If already registered?</h5>
-                                                        <button className="btn aqua-back mb-2">LOGIN</button>
+                                                        <button className="btn aqua-back mb-2" onClick={() => navigate("/login")}>LOGIN</button>
                                                     </div>
                                                     <div className="my-4">
                                                         <h5>For New Registration</h5>
