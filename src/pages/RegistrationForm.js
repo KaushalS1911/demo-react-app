@@ -36,6 +36,7 @@ const RegistrationForm = ({ vendor_category }) => {
                 payload
             )
             .then((res) => {
+                alert("Registered Successfully...");
                 console.log("Registered Successfully...");
             });
     }}
