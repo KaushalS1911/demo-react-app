@@ -41,14 +41,12 @@ function Login() {
                                                         <div className="mb-5">
                                                             <div className="d-flex justify-content-center">
                                                                 <div className="text-center mb-4 w-25 mt-3">
-                                                                    <a href="#">
                                                                         <img
                                                                             src={logo}
                                                                             alt="BootstrapBrain Logo"
                                                                             width={15}
                                                                             height={35}
                                                                         />
-                                                                    </a>
                                                                 </div>
                                                             </div>
                                                             <h6 className="text-center text-secondary">
