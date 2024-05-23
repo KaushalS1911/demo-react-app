@@ -1,32 +1,16 @@
 import React, {useState} from "react";
-import img from "../images/main-logo.jpg";
 import RegistrationForm from "./RegistrationForm";
-
 const Registration = () => {
     const [selectedVendor, setSelectedVendor] = useState();
-
     const handleChange = (e) => {
         setSelectedVendor(e.target.value);
     };
-
-
     return (
         <>
             <div className="">
                 <div className="background">
-                    <div className="w-100 d-flex justify-content-between align-items-center py-3 bg-white">
-                        <div className="px-4">
-                            <img src={img} style={{height: "60px"}} alt="logo"/>
-                        </div>
-                        <div className="ms-2 fw-bold text-wrap">
-                            National Cooperative Consumer's Federation of India Ltd - Bharat
-                            Brand Portal
-                        </div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div className="p-5 pb-0 my-4">
-                        <div className="d-md-flex d-unset align-items-center fw-bold">
+                    <div className="p-5 mt-5 pb-0 my-4">
+                        <div className="d-md-flex d-unset align-items-center fw-bold mt-5">
                             <div className="col-xl-1 col-md-2 col-12">
                                 <div className="form-check">
                                     <input
@@ -82,13 +66,11 @@ const Registration = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="my-4 colorBlue rounded d-inline-block p-2">
                             Online application for obtaining Provisional Permission for
                             establishment for new rice mill/Final Registrations of New Mill in
                             Punjab.
                         </div>
-
                         <div className="mb-4 d-sm-flex col-xl-6 col-12 align-items-center justify-content-between">
                             {/* <div className="text-center mt-4 mt-md-0">
                 <button className="btn button">SUBMIT</button>
@@ -110,5 +92,4 @@ const Registration = () => {
         </>
     );
 };
-
 export default Registration;
