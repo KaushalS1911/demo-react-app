@@ -4,19 +4,18 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import Login from "./pages/Login";
 import Users from "./pages/Users";
-import Header from './components/Navbar';
 const App = () => {
     return (
         <>
-            <Header />
-            <div className="pt-5">
+
+            {/*<div className="pt-5">*/}
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/register" element={<Registration />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/user" element={<Users />} />
                 </Routes>
-            </div>
+            {/*</div>*/}
         </>
     );
 }

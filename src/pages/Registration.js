@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import RegistrationForm from "./RegistrationForm";
+import Header from "../components/Navbar"
 const Registration = () => {
     const [selectedVendor, setSelectedVendor] = useState();
     const handleChange = (e) => {
@@ -7,11 +8,12 @@ const Registration = () => {
     };
     return (
         <>
-            <div className="">
+            <Header />
+            <div>
                 <div className="background">
-                    <div className="p-5 mt-5 pb-0 my-4">
-                        <div className="d-md-flex d-unset align-items-center fw-bold mt-5">
-                            <div className="col-xl-1 col-md-2 col-12">
+                    <div className="p-5 pb-0">
+                        <div className="d-md-flex d-unset align-items-center fw-bold mt-5 pt-5">
+                            <div className="col-xl-1 col-md-2 col-12 ">
                                 <div className="form-check">
                                     <input
                                         className="form-check-input "
@@ -86,7 +88,7 @@ const Registration = () => {
                             receive a SMS to the Mobile number you are trying to verify.
                         </div>
                     </div>
-                    0
+
                 </div>
             </div>
         </>

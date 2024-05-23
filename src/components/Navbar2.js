@@ -5,6 +5,7 @@ import header3 from "../images/header/header3.png"
 import mobileLogo from "../images/header/mobile-logo.jpg"
 
 const Header = () => {
+
     return (
         <div className="w-100 d-flex justify-content-between align-items-center py-2 bg-white px-lg-0 px-3 position-fixed z-3">
             <div className="px-2 d-lg-block d-none">
@@ -40,10 +41,18 @@ const Header = () => {
                         className="img-fluid mx-4"
                     />
                 </div>
+                <div> <button
+                    className="btn aqua-back me-3"
+                    // onClick={() => navigate("/login")}
+                >
+                    LOG OUT
+                </button></div>
             </div>
+
             <div className="d-lg-none d-block">
                 <i className="fa-solid fa-bars" style={{ fontSize: "30px" }}></i>
             </div>
+
         </div>
     );
 }

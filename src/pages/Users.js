@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../components/Navbar2"
 function Users() {
     return (
+        <>
+            <Header />
         <div className="container p-5">
             <h2 className="text-center mb-5">USERS</h2>
-            <div className="table-responsive" style={{ width: "1200px" }}>
+            <div className="table-responsive" >
                 <table
                     id="mytable"
                     className="table table-bordered text-center table-striped align-middle table-hover"
@@ -63,6 +66,7 @@ function Users() {
                 </table>
             </div>
         </div>
+            </>
     );
 }
 export default Users;

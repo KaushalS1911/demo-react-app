@@ -1,13 +1,15 @@
 import React from "react";
 import background from "../images/loginbgnew.png";
 import user from "../images/small.png";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom"
+import Header from "../components/Navbar"
 const HomePage =
     () => {
         const navigate = useNavigate()
         return (
             <>
-                <div>
+                <Header />
+                <div >
                     <section>
                         <div
                             className="main"
