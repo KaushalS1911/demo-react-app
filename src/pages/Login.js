@@ -58,7 +58,7 @@ function Login() {
                                                                 values
                                                             )
                                                             .then((response) => {
-                                                                if (response.status == 200) {
+                                                                if (response.status === 200) {
                                                                     notify();
                                                                     setTimeout(() => {
                                                                         navigate("/");
